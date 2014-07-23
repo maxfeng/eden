@@ -1235,7 +1235,7 @@ class S3DateWidget(FormWidget):
             #elif language == "ur":
             #    # Urdu uses Arabic
             #    language = "ar"
-            elif "-" in language:
+            elif "_" in language:
                 parts = language.split("_", 1)
                 language = "%s-%s" % (parts[0], parts[1].upper())
             path = os.path.join(request.folder, "static", "scripts", "i18n", "jquery.ui.datepicker-%s.js" % language)
@@ -1417,7 +1417,7 @@ class S3DateTimeWidget(FormWidget):
             #elif language == "ur":
             #    # Urdu uses Arabic
             #    language = "ar"
-            elif "-" in language:
+            elif "_" in language:
                 parts = language.split("_", 1)
                 language = "%s-%s" % (parts[0], parts[1].upper())
             path = os.path.join(request.folder, "static", "scripts", "i18n", "jquery.ui.datepicker-%s.js" % language)
