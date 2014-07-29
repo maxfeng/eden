@@ -4060,6 +4060,8 @@
 'Search Activity Report': '搜尋活動報告',
 'Search Addresses': '搜尋位址',
 'Search Aid Requests': '搜尋輔助要求',
+'Search All Requested Items': '搜尋所有需求項目',
+'Search All Requested Skills': '搜尋所有需求技能',
 'Search Alternative Items': '搜尋替代項目',
 'Search Assessment Summaries': '搜尋評量摘要',
 'Search Assessments': '搜尋評量',
